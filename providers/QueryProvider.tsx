@@ -37,6 +37,7 @@ export default function QueryProvider({
 
     const [queryClient] = useState(
         () =>
+
             new QueryClient({
 
                 // ==========================================
